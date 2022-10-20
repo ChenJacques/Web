@@ -1,0 +1,141 @@
+@media (max-width: 767.5px) {
+.flexbox {
+display : flex;
+flex-direction : column;
+}
+
+article{
+height: 8rem;
+margin: 1rem;
+}
+
+.blue {
+background-color: blue;
+height : 4rem;
+margin : 1rem;
+}
+
+.green {
+background-color: green;
+height : 8rem;
+margin : 1rem;
+}
+.yellow {
+background-color: yellow;
+}
+
+.red {
+background-color: red;
+height : 4rem;
+margin : 1rem;
+}
+
+.purple {
+background-color: purple;
+}
+
+.pink {
+background-color: pink;
+}
+
+.bottom{
+position : sticky;
+bottom: 0;
+}
+}
+
+@media (min-width:768px) and (max-width:1024px) {
+.flexbox {
+display : flex;
+flex-wrap : wrap;
+}
+
+article{
+height: 8rem;
+margin: 1rem;
+flex : 40%;
+}
+
+.blue {
+background-color: blue;
+height : 4rem;
+width : 47%;
+margin : 1rem;
+}
+
+.green {
+background-color: green;
+height : 8rem;
+margin : 1rem;
+}
+.yellow {
+background-color: yellow;
+}
+
+.red {
+background-color: red;
+height : 4rem;
+margin : 1rem;
+}
+
+.purple {
+background-color: purple;
+}
+
+.pink {
+background-color: pink;
+}
+
+.bottom{
+position : sticky;
+bottom: 0;
+}
+}
+
+@media (min-width:1024px) {
+.flexbox {
+display : flex;
+flex-wrap : wrap;
+}
+
+article{
+height: 8rem;
+margin: 1rem;
+flex : 30%;
+}
+
+.blue {
+background-color: blue;
+height : 4rem;
+width : 47%;
+margin : 1rem;
+}
+
+.green {
+background-color: green;
+height : 8rem;
+margin : 1rem;
+}
+.yellow {
+background-color: yellow;
+}
+
+.red {
+background-color: red;
+height : 4rem;
+margin : 1rem;
+}
+
+.purple {
+background-color: purple;
+}
+
+.pink {
+background-color: pink;
+}
+
+.bottom{
+position : sticky;
+bottom: 0;
+}
+}
