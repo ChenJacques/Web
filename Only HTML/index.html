@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>CodingPedia</title>
+	</head> 
+	<body>
+		<header>
+		<h1>Welcome to CodingPedia</h1>
+			<nav>
+				<ol>
+					<li><a href="index.html">HTML</a></li>
+					<li><a href="php.html">PHP</a></li>
+					<li><a href="sql.html">SQL</a></li>
+				</ol>
+			</nav>
+		</header>
+		<main>
+			<p>
+				CodingPedia is a collective encyclopedia project on the Internet aiming to be
+			universal and multi-lingual which functions as a wiki.<br>
+	           CodingPedia has for goal to offer freely reusable objective and verifiable content
+			that anyone can modify and improve.</p>
+			<article>
+				<form><fieldset>
+					<legend>Article</legend>
+					<label>Name</label>
+					<input type="text" id="name" required="required"><br>
+					<label>First name</label>
+					<input type="text" id="firstname" required="required"><br>
+					<label>Email</label>
+					<input type="email" id="email" required="required"><br>
+					<label>Age</label>
+					<input type="number" id="age" min="3" max="99"><br>
+					<label>Phone</label>
+					<input type="tel" id="phone" pattern="[0-9]{10}"><br>
+					<label>Sex</label>
+					<input type="radio" id="Male" name="sex" value="Male" checked>
+						<label for="Male">Male</label>
+					<input type="radio" id="Femele" name="sex" value="Femele">
+						<label for="Femele">Femele</label><br>
+					<label>Hair color</label>
+					<input type="color" id="haircolor"><br>
+					<label>Date</label>
+					<input type="date" id="date" value="2022-09-13" required="required">
+					<label>Technology</label>
+						<select id="techno">
+							<option>PHP</option>
+							<option>SQL</option>
+						</select><br>
+					<label>Question</label><br>
+					<input type="text" required="required"><br>
+					<input type="submit" value="Envoyer ma question">
+
+				</fieldset></form>
+			</article>
+		</main>
+		<aside>
+			Bonjour, je m'appelle Jacques CHEN, actuellement étudiant à Epitech.
+		</aside>
+		<footer>
+			<address>
+				CHEN - JACQUES
+			</address>
+		</footer>
+	</body>
+</html>
